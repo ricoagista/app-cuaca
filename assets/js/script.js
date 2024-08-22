@@ -60,19 +60,19 @@ function weatherInfo(data) {
      //akses data.weather[0], maka tiap cuaca ada id-nya, misal id 2xx berarti badai
      //lengkapnya bisa kunjungi https://openweathermap.org/weather-conditions
     if(weatherID >= 200 && weatherID <= 232) {
-      img.src = 'img/stormy.png';
+      img.src = './assets/image/stormy.png';
     } else if(weatherID >= 300 && weatherID <= 321) {
-      img.src = 'img/clouds.png';
+      img.src = './assets/image/clouds.png';
     } else if(weatherID >= 500 && weatherID <= 531) {
-      img.src = 'img/heavy-rain.png';
+      img.src = './assets/image/heavy-rain.png';
     } else if(weatherID >= 600 && weatherID <= 622) {
-      img.src = 'img/snow.png';
+      img.src = './assets/image/snow.png';
     } else if(weatherID >= 701 && weatherID <= 781) {
-      img.src = 'img/fog.png';
+      img.src = './assets/image/fog.png';
     } else if(weatherID === 800) {
-      img.src = 'img/sunny.png';
+      img.src = './assets/image/sunny.png';
     } else if(weatherID >= 801 && weatherID <= 804) {
-      img.src = 'img/cloudy-day.png';
+      img.src = './assets/image/cloudy-day.png';
     }
   } 
 }
